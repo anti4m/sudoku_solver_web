@@ -8,10 +8,8 @@ export class View {
     private unitBoxes: HTMLElement[][];
     private button: HTMLButtonElement;
     private message: HTMLElement;
-    private cellWidth: number;
 
     constructor(cellWidth: number) {
-        this.cellWidth = cellWidth;
         this.cells = [];
         this.unitBoxes = [];
 

@@ -49,7 +49,7 @@ describe('ColumnHeaderNode', () => {
         const node1 = new MatrixNode(header, null, header);
         expect(header.size).toBe(1);
 
-        const node2 = new MatrixNode(header, null, node1);
+        new MatrixNode(header, null, node1);
         expect(header.size).toBe(2);
 
         node1.detachColumn();
