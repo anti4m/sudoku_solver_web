@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #32a871;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sudoku-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.sudoku-board {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 15px;
+}
+
+.unit-box {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 5px;
+}
+
+.sudoku-cell {
+    background-color: #32a871;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    outline: none;
+    caret-color: #FFFFFF;
+}
+
+.sudoku-cell:focus {
+    outline: 3px solid #1a7a4c;
+}
+
+.sudoku-cell:disabled {
+    background-color: #32a871;
+    color: #FFFFFF;
+    opacity: 1;
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+.solve-button {
+    background-color: #32a871;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: normal;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+
+.solve-button:hover {
+    background-color: #2a8f61;
+}
+
+.solve-button:active {
+    background-color: #1a7a4c;
+}
+
+.message {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: #333;
+    margin-top: 10px;
+    min-height: 20px;
+}
