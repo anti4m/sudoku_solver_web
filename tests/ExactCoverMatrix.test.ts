@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'bun:test';
-import { ExactCoverMatrix } from '../src/SudokuSolver/ExactCoverMatrix';
-import { ColumnHeaderNode } from '../src/SudokuSolver/ColumnHeaderNode';
-import { MatrixNode } from '../src/SudokuSolver/MatrixNode';
+import { ExactCoverMatrix } from '../src/ExactCoverMatrix';
+import { ColumnHeaderNode } from '../src/ColumnHeaderNode';
+import { MatrixNode } from '../src/MatrixNode';
 
 describe('ExactCoverMatrix', () => {
     test('has exactly 324 column headers', () => {

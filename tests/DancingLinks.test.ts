@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'bun:test';
-import { DancingLinks } from '../src/SudokuSolver/DancingLinks';
-import { ExactCoverMatrix } from '../src/SudokuSolver/ExactCoverMatrix';
+import { DancingLinks } from '../src/DancingLinks';
+import { ExactCoverMatrix } from '../src/ExactCoverMatrix';
 
 // Helper to solve a puzzle
 function solvePuzzle(puzzle: number[][]): number[][] | null {

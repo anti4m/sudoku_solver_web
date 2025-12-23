@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'bun:test';
-import { MatrixNode } from '../src/SudokuSolver/MatrixNode';
-import { ColumnHeaderNode } from '../src/SudokuSolver/ColumnHeaderNode';
+import { MatrixNode } from '../src/MatrixNode';
+import { ColumnHeaderNode } from '../src/ColumnHeaderNode';
 
 describe('ColumnHeaderNode', () => {
     test('initializes with name using single-arg constructor', () => {

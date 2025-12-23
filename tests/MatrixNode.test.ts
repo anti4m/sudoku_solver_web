@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'bun:test';
-import { MatrixNode } from '../src/SudokuSolver/MatrixNode';
-import { ColumnHeaderNode } from '../src/SudokuSolver/ColumnHeaderNode';
+import { MatrixNode } from '../src/MatrixNode';
+import { ColumnHeaderNode } from '../src/ColumnHeaderNode';
 
 describe('MatrixNode', () => {
     test('initializes with self-pointers', () => {
